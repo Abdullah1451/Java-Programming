@@ -1,0 +1,8 @@
+Abdullah        7838   GNDIT
+Mohd.Azhar      7838   SANT
+Mohd.Ashhar     7053   GGIP
+Mohd.Anas       9560   NIEC
+Abdullah        7838   SSLT
+Mohd.Azhar      7838   RPVV
+Mohd.Ashhar     7053   SSLT
+Mohd.Anas       9560   SSLT
