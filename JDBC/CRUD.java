@@ -21,7 +21,7 @@ public class CRUD{
 			Statement stmt=con.createStatement();
 			
 			System.out.println("Enter Name Of The DataBase ");
-			DB = sc.next();
+			DB = sc.nextLine();
 
 			String sql = "create database "; 
  			stmt.executeUpdate(sql+DB);
@@ -115,9 +115,9 @@ public class CRUD{
 
 	public static void main(String args[]){
 		CRUD obj = new CRUD();
-		//obj.CreateDataBase();
-		//obj.CreateTable();
-		obj.InsertUpdateDeleteValue();
-		obj.Read();
+		obj.CreateDataBase();
+		obj.CreateTable();
+		//obj.InsertUpdateDeleteValue();
+		//obj.Read();
 	}
 }

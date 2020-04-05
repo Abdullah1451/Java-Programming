@@ -1,0 +1,4 @@
+hi my name is abdullah 
+i am trying to hide this text file in an image 
+and then we will see what happens
+asdfgh

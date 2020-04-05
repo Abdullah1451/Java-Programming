@@ -7,7 +7,7 @@ public class CreateFile{
 			
 			if(!ob.exists()){
 				ob.createNewFile();
-				System.out.println("File Name: "+ ob.getName());
+				System.out.println("File Name: "+ ob.getName()+"\nFile Path : "+ ob.getPath());
 				
 			}	
 			else{

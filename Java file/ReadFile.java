@@ -3,12 +3,12 @@ import java.io.*;
 public class ReadFile{
 	public static void main(String args[])throws Exception{
 		
-			File ob = new File("D:\\Abdullah Working\\Java\\Java file\\MyFile2.txt");
-			BufferedReader r = new BufferedReader(new FileReader(ob));
+			File ob = new File("aa.jpg");
+			BufferedInputStream r = new BufferedInputStream(new FileInputStream(ob));
 			String l;
 			System.out.println(ob.getName());
-			while((l=r.readLine()) != null)
-				System.out.println(l);
+			while((r.available()) >1)
+				System.out.println(r.read());
 			
 		
 	}

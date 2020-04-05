@@ -58,11 +58,21 @@ public class Whodunit{
 				else{
 					sum = triplets[i].b + triplets[i].g + triplets[i].r;
 					avg = sum/3;
+					System.out.println("Avg = "+avg);
 					/*if(avg <= 233){
 						avg = avg-35;
 						triplets[i].b = (short)avg;
 						triplets[i].g = (short)avg;
 						triplets[i].r = (short)avg;
+						nf.write(triplets[i].b);
+						nf.write(triplets[i].g);
+						nf.write(triplets[i].r);
+					}
+					else{*/
+					/*if(avg > 180){
+						triplets[i].b = 255;
+						triplets[i].g = 255;
+						triplets[i].r = 255;
 						nf.write(triplets[i].b);
 						nf.write(triplets[i].g);
 						nf.write(triplets[i].r);

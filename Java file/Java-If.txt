@@ -1,0 +1,6 @@
+public class Array{		
+		
+		if(true)
+			System.out.println("do");
+
+}	
